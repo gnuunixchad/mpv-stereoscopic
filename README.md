@@ -15,6 +15,11 @@ compiled with FFmpeg support.
 # Installation
 
 ```sh
+make install
+```
+
+or manually copy the script:
+```sh
 mkdir -p ${XDG_CONFIG_HOME}/mpv/scripts
 cp ./stereoscopic.lua ${XDG_CONFIG_HOME}/mpv/scripts/
 ```

@@ -1,7 +1,7 @@
 # stereoscopic
 
 Toggle a video filter that places two copies of the video side-by-side,
-creating a simple stereoscopic/dual-image illusion of 3D depth.
+creating a simple cross-eye stereoscopic illusion.
 
 ![demo](./misc/demo.gif)
 
@@ -24,10 +24,13 @@ mkdir -p ${XDG_CONFIG_HOME}/mpv/scripts
 cp ./stereoscopic.lua ${XDG_CONFIG_HOME}/mpv/scripts/
 ```
 
-# Usage
+# Keybindings
 
-Create a keybinding for this script to toggle the stereoscopic:
+- `D` to toggle stereoscopic effect
 
+# Configuration
+
+To modify default Keybindings:
 ```conf
 # $XDG_CONFIG_HOME/mpv/input.conf
 D script-message toggle-stereoscopic
